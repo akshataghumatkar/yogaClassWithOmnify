@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[join class]]>
+    </line>
+    <line>
+      <![CDATA[Welcome back, Akshata Ghumatkar! You can attend 2 FREE trial classes at your preferred time. Choose a class below and click on "Join" when you're ready.]]>
+    </line>
+    <line>
+      <![CDATA[---close browser---]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80232" started-at="2023-03-31T14:43:12 IST" finished-at="2023-03-31T14:44:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80232" started-at="2023-03-31T14:43:12 IST" finished-at="2023-03-31T14:44:32 IST">
+      <class name="testClass.TestLogin">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testClass.TestLogin@289d1c02]" name="launchBrowser" is-config="true" duration-ms="24010" started-at="2023-03-31T14:43:12 IST" finished-at="2023-03-31T14:43:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="refreshBrowser()[pri:0, instance:testClass.TestLogin@289d1c02]" name="refreshBrowser" is-config="true" duration-ms="6155" started-at="2023-03-31T14:43:36 IST" finished-at="2023-03-31T14:43:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshBrowser -->
+        <test-method status="PASS" signature="tc01_login_validCredentials()[pri:0, instance:testClass.TestLogin@289d1c02]" name="tc01_login_validCredentials" duration-ms="49975" started-at="2023-03-31T14:43:42 IST" finished-at="2023-03-31T14:44:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[join class]]>
+            </line>
+            <line>
+              <![CDATA[Welcome back, Akshata Ghumatkar! You can attend 2 FREE trial classes at your preferred time. Choose a class below and click on "Join" when you're ready.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc01_login_validCredentials -->
+        <test-method status="PASS" signature="afterTestcase(org.testng.ITestResult)[pri:0, instance:testClass.TestLogin@289d1c02]" name="afterTestcase" is-config="true" duration-ms="6" started-at="2023-03-31T14:44:32 IST" finished-at="2023-03-31T14:44:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_login_validCredentials status=SUCCESS method=TestLogin.tc01_login_validCredentials()[pri:0, instance:testClass.TestLogin@289d1c02] output=join class]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestcase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClass.TestLogin@289d1c02]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2023-03-31T14:44:32 IST" finished-at="2023-03-31T14:44:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[---close browser---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClass.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
